@@ -1,0 +1,5 @@
+APOLLO_KEY=service:Assignment-rfrk1j:GLEZPJGycMPbufKR70B1AQ \
+  rover subgraph publish Assignment-rfrk1j@current \
+  --schema ./products-schema.graphql \
+  --name your-subgraph-name \
+  --routing-url http://products.prod.svc.cluster.local:4001/graphql
